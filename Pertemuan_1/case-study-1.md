@@ -12,6 +12,7 @@
 * Ganjil atau Genap 
 * Grade Nilai: 100 - 90 (A), 89 - 80 (A-), dst.
 
+Contoh membuat Algoritma untuk String-1 Hello->olleH
 algoritma / steps:
 1. ada input kata
     variable
@@ -21,7 +22,3 @@ algoritma / steps:
     add huruf ke list
 4. susun kembali huruf-huruf dalam list, dibaca dari belakang.
     dari list, perulangan, panjang dari list[]
-
-
-
-[] list
