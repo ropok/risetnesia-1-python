@@ -1,17 +1,16 @@
+def reverse_word(word):
+    result = ""
+    # 2. akses huruf satu per satu
+    word = list(word)
+    max_index = len(word)-1
+    # 3. baca dari belakang dan masukkan ke dalam variable result
+    for x in range(max_index,-1,-1):
+        result += word[x]
+    return result
+
 # 1. input kata
 kata = input("Masukkan kata: ")
-print(kata)
+print("input: {}".format(kata))
 
-# 2. baca huruf satu per satu
-kata_terpisah = list(kata)
-
-# 3. dari list kata_terpisah dibalik, baca dari belakang
-kata_terbalik = ""
-
-panjang_words = len(kata_terpisah) -1
-
-for x in range(panjang_words,-1,-1):
-    y = kata_terpisah[x]
-    kata_terbalik += y
-
-print(kata_terbalik)
+kata_terbalik = reverse_word(kata)
+print("output: {}".format(kata_terbalik))
