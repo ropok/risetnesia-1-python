@@ -1,6 +1,6 @@
 # String
 * Hello -> olleH
-* Hello World -> olleH dlroW
+* Hello World Baca Dunia 123 -> olleH dlroW
 
 # perulangan (+percabangan if)
 * print bilangan ganjil 1 - 100
