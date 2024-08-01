@@ -7,20 +7,44 @@
 
 # 3
 
+# 3 ?
+# 3/2 , dst
+# 3+1 = 4   range(2,4)
+# 3%3 = 0
+
+# 9 ?
+# 9/2, 9/3, 9/4 dst..
+
+
+# def check_prima(number):
+#     if number > 1 :
+#         for i in range (2, number+1):
+#             if(number % i == 0):
+#                 return False
+#         return True
+#     else:
+#         return False
+
 def check_prima(number):
     if number > 1:
-        for x in range (2,number+1):
-            if(number % x == 0):
+        for i in range (2,number):
+            if(number % i == 0):
                 return False
-            else:
-                return True
+        return True
     else:
         return False
 
-
+# def check_prima(number):
+#     if number > 1 :
+#         for i in range (2, number):
+#             if(number % i == 0):
+#                 return False
+#         return True
+#     else:
+#         return False
 
 
 # for angka 1-100
-for x in range(0,10):
+for x in range(0,101):
     if(check_prima(x)):
         print(x)
